@@ -1,0 +1,51 @@
+.Story1{
+    /* display: flex;
+    position: relative; */
+    height:100%;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+.Story1::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.8;
+    z-index : -1;
+    background-image:url(../../public/desert_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/* Findwell */
+.Findwell p{
+    margin-top: 20vh;
+    font-size: 28px;
+    font-weight: 700;
+    text-shadow: 1px 1px rgba(245, 222, 179, 0.612);
+}
+.Findwell img{
+    max-width: 200px;
+    max-height: 200px;
+}
+.Findwell div{
+    display: inline-block;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-top: 13vh;
+}
+
+.well {
+    position: fixed;
+    left:38vw;
+    top:31vh;
+}
+.Findwell #well{
+    max-width: 200px;
+    max-height: 200px;
+}
+

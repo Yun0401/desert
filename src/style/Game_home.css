@@ -1,0 +1,53 @@
+.Game{
+    height:100%;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+.Game::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.8;
+    z-index : -1;
+    background-image:url(../../public/desert_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.story{
+    margin: 2vw;
+    margin-top: 40vh;
+    font-size: 36px;
+}
+.btn_start{
+    position: flex;
+    margin-top: 5vh;
+    border-width: 0;
+    font-size: 32px;
+    background-color: transparent; 
+
+}
+.btn_start:hover{
+    
+    opacity: 0.5; 
+
+}
+.btn_next{
+    position: fixed;
+    border-width: 0 ;
+    font-size: 28px;
+    background-color: transparent; 
+    top:50vh;
+    right:20vw;  
+}
+.btn_next:hover{    
+    opacity: 0.5;
+}
+.notshow{
+    opacity: 0 !important;
+    z-index: -10 !important;
+}

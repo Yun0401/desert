@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+import './style/App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,9 +17,13 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
 
 export default App;
+
+// function $(id){
+//   return typeof id === "string"?document.getElementById(id):null;
+// }
